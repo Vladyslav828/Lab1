@@ -1,0 +1,195 @@
+* {
+	box-sizing: border-box;
+
+}
+
+@font-face {
+font-family: 'Roboto', 
+sans-serif; 
+}
+
+
+.container{
+	height: 100%;
+	width:100%;
+}
+.text1{
+	text-align: center; 
+	font-size: 51px; 
+	margin: 30px; 
+	font-family: Roboto;
+}
+.box{
+	width: 100%;
+	height: 100%;
+	position: relative; 
+	background-color: #999999;
+	border: solid;	
+}
+.box2{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background-color: #999999;
+	border: solid;
+}
+.box3{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background-color: #999999;
+	border: solid;
+}
+.name{
+	text-align: center;
+	font-weight: bold; 
+}
+.name_Beef{
+	color:#ffffff;
+	text-align: center;
+	font-weight: bold; 
+}
+
+.boxS{
+	right: 0;
+	top: 0;
+	background-color: #d59898;
+	position: absolute; 
+	border-bottom: solid;
+	border-left: solid;
+	width: 30%;
+	height: 15%;
+}
+
+.boxS2{
+	right: 0;
+	top: 0;
+	background-color:#c14543;
+	position: absolute;
+	border-bottom: solid; 
+	border-left: solid;
+	width: 30%;
+	height: 15%;
+}
+.boxS3{
+	right: 0;
+	top: 0;
+	background-color:#e5d198;
+	position: absolute;
+	border-bottom: solid;
+	border-left: solid;
+	width: 30%;
+	height: 15%;
+}
+.text{
+	padding: 3% 1%;
+	font-family: Roboto;
+	font-size: 16px;
+}
+@media (min-width:992px){ 
+	.container{
+		width: 100%;
+	}
+	.box{
+		margin-top: 5px;
+		height: 100%;
+		width: 31%;
+		margin-right: 2%;
+		display: inline-block; 
+		 
+	}
+	.box2{
+		margin-top: 20px;
+		height: 100%;
+		width: 31%;
+		display: inline-block;
+		margin-right: 2%;
+	}
+	.box3{
+		margin-top: 20px;
+		height: 100%;
+		width: 31%;
+		display: inline-block;
+		margin-right: 2%;
+	}
+	.boxS{
+		height: 20%;
+	}
+	.boxS2{
+		height: 20%;
+	}
+	.boxS3{
+		height: 20%;
+	}
+	.text{
+		padding-top: 10%;
+	}
+}
+@media (max-width:991px){ 
+	.container{
+		width: 100%;
+	}
+	.box{
+		width: 49%;
+		height: 100%;
+		display: inline-block;
+		margin-right: 1%;
+		
+	}
+	.box2{
+		height: 100%;
+		width: 49%;
+		display: inline-block;
+		margin-right: -1%;
+	}
+	.box3{
+		margin-top: 20px;
+		height: 100%;
+		width: 100%;
+	}
+	.boxS{
+		height: 25%;
+	}
+	.boxS2{
+		height: 25%;
+	}
+	.boxS3{
+		height: 25%;
+	}
+	.text{
+		padding-top: 10%;
+	}
+
+}
+@media (max-width: 767px){ 
+	.container{
+		width: 100%;
+	}
+	.box{
+		width: 100%;
+		height:100%;
+	}
+	.box2{
+		margin-top: 14px;
+		height: 100%;
+		width: 100%;
+	}
+	.box3{
+		margin-top: 14px;
+		height: 100%;
+		width: 100%;
+	}
+	.boxS{
+		height: 25%;
+	}
+	.boxS2{
+		height: 25%;
+	}
+	.boxS3{
+		height: 25%;
+	}
+	.text{
+		padding-top: 10%;
+	}
+}
+	
